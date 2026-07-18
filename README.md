@@ -122,17 +122,6 @@ Each category displays:
 
 ---
 
-## 📸 Dashboard Preview
-
-Example:
-
-```
-Decathlon dashboard.png
-```
-
-
----
-
 ## 📈 Business Impact
 
 This dashboard helps businesses:
