@@ -129,14 +129,9 @@ Each category displays:
 Example:
 
 ```
-images/dashboard.png
+Decathlon dashboard.png
 ```
 
-or
-
-```markdown
-![Dashboard Preview](images/dashboard.png)
-```
 
 ---
 
