@@ -129,7 +129,7 @@ Each category displays:
 Example:
 
 ```
-Decathlon dashboard.png
+Decathlon dashboard.pngD
 ```
 
 
