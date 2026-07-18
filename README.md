@@ -124,12 +124,10 @@ Each category displays:
 
 ## 📸 Dashboard Preview
 
-> Add your dashboard screenshot here.
-
 Example:
 
 ```
-Decathlon dashboard.pngD
+Decathlon dashboard.png
 ```
 
 
