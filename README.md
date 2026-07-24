@@ -152,18 +152,14 @@ This dashboard helps businesses:
 
 ---
 
-# 👩‍💻 Author
 
-**Niharika K T**
+## 👨‍💻 Author
+Niharika K T
 
-**Aspiring Data Analyst | Power BI | SQL | Excel | Python | Data Visualization**
+Aspiring Data Analyst | Power BI | SQL | Excel | Python | Data Visualization
 
-📧 Email: niharikakt024@gmail.com  
-🔗 LinkedIn: www.linkedin.com/in/niharika-k-t-8a1a2728a  
+📧 Email: niharikakt024@gmail.com
+🔗 LinkedIn: www.linkedin.com/in/niharika-k-t-8a1a2728a
 💻 GitHub: https://github.com/niharikakt024
 
----
-
-## ⭐ If you like this project
-
-Give this repository a ⭐
+⭐ If you find this project useful, consider giving the repository a star!
