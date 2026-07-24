@@ -1,154 +1,72 @@
-# 🏆 Decathlon Sales & Customer Analytics Dashboard (Excel)
+# 🏀 Decathlon Dashboard — Sales & Customer Analytics
 
-![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Dashboard](https://img.shields.io/badge/Project-Interactive%20Dashboard-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+An interactive **Microsoft Excel Dashboard** built for **Decathlon**, delivering smarter insights into sales performance, customer behavior, and product trends across years — helping the business build stronger connections and better performance.
 
-## 📌 Project Overview
-
-The **Decathlon Sales & Customer Analytics Dashboard** is an interactive Microsoft Excel dashboard designed to analyze sales performance, customer behavior, product trends, and business KPIs. The dashboard enables decision-makers to monitor business performance through dynamic visualizations, KPI cards, charts, and slicers.
-
-This project demonstrates advanced Excel dashboarding skills using Pivot Tables, Pivot Charts, Slicers, Data Modeling, Conditional Formatting, and interactive reporting techniques.
+🔗 **Repository:** [Decathlon-Sales-Customer-Analytics-Dashboard-Excel](https://github.com/niharikakt024/Decathlon-Sales-Customer-Analytics-Dashboard-Excel)
 
 ---
 
-## 🎯 Project Objectives
+## 🖥️ Dashboard Preview
 
-- Monitor overall sales performance.
-- Analyze customer purchasing behavior.
-- Track order trends over time.
-- Identify top-performing sports categories.
-- Measure customer retention.
-- Compare sales distribution by gender.
-- Provide year-wise interactive filtering.
+A single-page executive view combining top-line KPIs, top-performing sports categories, and trend/behavioral breakdowns, filterable by year (2024–2026).
+
+![Decathlon Sales & Customer Analytics Dashboard](Decathlon-Dashboard.png)
 
 ---
 
-## 📊 Dashboard Highlights
+## ✨ Key Features
 
-### 📈 Key Performance Indicators (KPIs)
-
-- Total Sales
-- Total Orders
-- Total Customers
-- Average Order Value (AOV)
-
----
-
-### 🏅 Sports Performance Analysis
-
-Top 5 Sports Categories based on sales:
-
-- Gym
-- Running
-- Outdoor
-- Hiking
-- Cycling
-
-Each category displays:
-
-- Revenue
-- Total Orders
+- **Year Filter** — Toggle between 2024, 2025, and 2026
+- **KPI Cards** — Total Sales, Total Orders, Total Customers, and Average Order Value, each with YoY growth %
+- **Top 5 Sports Type** — Ranked view of best-performing categories (Gym, Running, Outdoor, Hiking, Cycling) with sales value and order count
+- **Sales Over Time** — Monthly sales trend across the year
+- **Sales by Product Category** — Donut breakdown across categories like Badminton, Camping, Cricket, Cycling, Fitness, Football, Running, Swimming, Trekking, and Yoga
+- **Customer Retention Rate** — Monthly retention trend with overall retention %
+- **Sales by Gender** — Male vs. Female revenue split
 
 ---
 
-### 📉 Sales Analysis
+## 🛠️ Tech Stack
 
-- Sales Over Time
-- Sales by Product Category
-- Customer Retention Rate
-- Sales Distribution by Gender
-
----
-
-### 🎛 Interactive Features
-
-- Year-wise Slicer (2024, 2025, 2026)
-- Dynamic KPI Cards
-- Interactive Charts
-- Responsive Dashboard Layout
+- **Tool:** Microsoft Excel
+- **Data Modeling:** Star schema with sales, customer, product, and date dimension tables
+- **DAX:** Custom measures for YoY growth %, retention rate, and category-wise contribution
+- **Data Source:** Sales, order, and customer transactional data
 
 ---
 
-## 🛠 Tools & Technologies
+## 📁 Repository Structure
 
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Data Validation
-- Conditional Formatting
-- Excel Formulas
-- Dashboard Design
-
----
-
-## 📌 Key Insights
-
-- Provides a complete overview of business performance.
-- Identifies high-performing sports categories.
-- Tracks customer retention trends.
-- Compares gender-based sales contribution.
-- Monitors yearly sales performance using dynamic filters.
-- Enables faster business decision-making through interactive reporting.
+```
+DECATHLON-DASHBOARD/
+│
+├── Decethlon Dashboard.xlsx          # Excel dashboard file
+├── Dataset.xlsx                   # Source data files (if included)
+├── Decathlon dashboard.png            # Dashboard preview images
+└── README.md                # Project documentation
+```
 
 ---
 
-## 📂 Dashboard Sections
+## 🚀 Getting Started
 
-- Executive KPI Summary
-- Top Sports Performance
-- Sales Trend Analysis
-- Product Category Analysis
-- Customer Retention Analysis
-- Gender-wise Sales Analysis
-- Year Filter
-
----
-
-## 🚀 Skills Demonstrated
-
-- Data Cleaning
-- Data Analysis
-- Dashboard Design
-- Business Intelligence
-- KPI Reporting
-- Interactive Excel Dashboards
-- Data Visualization
-- Sales Analytics
-- Customer Analytics
-- Excel Automation
-- Pivot Table Analysis
+1. Clone the repository
+   ```bash
+   git clone https://github.com/niharikakt024/Decathlon-Sales-Customer-Analytics-Dashboard-Excel.git
+   ```
+2. Open the `.xlsx` file in **Microsoft Excel**
+3. Refresh the data source (if connected to live data)
+4. Use the year filter to explore performance across 2024, 2025, and 2026
 
 ---
 
-## 📈 Business Impact
+## 📈 Key Insights
 
-This dashboard helps businesses:
-
-- Monitor sales performance in real time.
-- Analyze customer trends.
-- Improve product strategy.
-- Track customer retention.
-- Support data-driven decision-making.
-
----
-
-## ⭐ Project Features
-
-✔ Interactive Dashboard
-
-✔ Professional UI Design
-
-✔ Dynamic KPI Cards
-
-✔ Year-wise Filtering
-
-✔ Category Performance Analysis
-
-✔ Customer Insights
-
-✔ Executive Summary Dashboard
+- Total sales reached **₹36.7 Cr**, up **40.8%**, driven by strong growth across all top KPIs
+- **Cycling** is the highest-revenue sports category (**₹8.1 Cr**) despite not having the highest order count, suggesting a higher average order value in this segment
+- **Gym** leads in order volume among top categories, closely followed by Running and Cycling
+- Customer base grew to **8,998**, with overall retention holding steady at **64.58%**
+- Revenue is evenly split by gender, with Male and Female customers each contributing **50%** of sales
 
 ---
 
